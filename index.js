@@ -112,4 +112,4 @@ console.log(cashCounter(1, 50)); // change should be one 2x20, 1x5, 2x2
 console.log(cashCounter(100, 50)); // should return early
 console.log(cashCounter(1, 5000000000)); 
 console.log(cashCounter(12, 25)); // change should be one 1x10, 1x2, 1x1
-console.log(cashCounter(9.05, 25)); // change should be one 1x10, 1x2, 1x1
+console.log(cashCounter(9.05, 25)); // change should be one 1x10, 1x5, 1x0.5, 2x0.2, 2x0.002
